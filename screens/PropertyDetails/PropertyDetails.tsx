@@ -126,6 +126,13 @@ const PropertyDetails = ({navigation, route}:any) => {
     return `${minYear}`;
   }
 
+  const getfee = ()=>{
+    if(data.hoa === null)
+      return "None";
+    else
+      return `$${data.hoa.fee}/mo`;
+  }
+
   useEffect(() => {
     getData();
   }, []);
@@ -214,7 +221,7 @@ const PropertyDetails = ({navigation, route}:any) => {
             <View style={PropertyDetailsStyle.buildDetailsItem}>
               <Text style={[PropertyDetailsStyle.hoa, PropertyDetailsStyle.icons]}>HOA</Text>
               <View>
-                <Text style={PropertyDetailsStyle.buildDetailsItemheading}>${data.hoa.fee}/mo</Text>
+                <Text style={PropertyDetailsStyle.buildDetailsItemheading}>{getfee()}</Text>
                 <Text style={PropertyDetailsStyle.buildDetailsItemText}>HOA Fee</Text>
               </View>
             </View>
