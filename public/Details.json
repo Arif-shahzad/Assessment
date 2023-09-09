@@ -1,0 +1,414 @@
+{
+    "console.log()": "response.data",
+    "data": {
+        "home": {
+            "__typename": "Home", 
+            "advertisers": null, 
+            "assigned_schools": {
+                "__typename": "SchoolList", 
+                "schools": [
+                    {
+                        "__typename": "School", 
+                        "district": [Object]
+                    }, 
+                    {
+                        "__typename": "School", 
+                        "district": [Object]
+                    }, 
+                    {
+                        "__typename": "School", 
+                        "district": [Object]
+                    }
+                ]
+            }, 
+            "branding": [
+                {
+                    "__typename": "Branding", 
+                    "accent_color": null, 
+                    "link": null, 
+                    "name": null, 
+                    "phone": null, 
+                    "photo": null,
+                    "slogan": null, 
+                    "type": "Agent"
+                }, 
+                {
+                    "__typename": "Branding", 
+                    "accent_color": null, 
+                    "link": null, 
+                    "name": null, 
+                    "phone": null, 
+                    "photo": null, 
+                    "slogan": null, 
+                    "type": "Office"
+                }
+            ], 
+            "buyers": null, 
+            "community": null, 
+            "consumer_advertisers": [
+                {
+                    "__typename": "ConsumerAdvertiser", 
+                    "advertiser_id": "", 
+                    "agent_id": null, 
+                    "hours": null, 
+                    "href": null, 
+                    "name": null, 
+                    "office_id": null, 
+                    "phone": null, 
+                    "photo": {
+                        "__typename": "Photo", 
+                        "href": null
+                    }, 
+                    "show_realtor_logo": false, 
+                    "slogan": null, 
+                    "type": "Agent"
+                }, 
+                {
+                    "__typename": "ConsumerAdvertiser", 
+                    "advertiser_id": "", 
+                    "agent_id": null, 
+                    "hours": null, 
+                    "href": null, 
+                    "name": null, 
+                    "office_id": null, 
+                    "phone": null, 
+                    "photo": {
+                        "__typename": "Photo", 
+                        "href": null
+                    }, 
+                    "show_realtor_logo": false, 
+                    "slogan": null, 
+                    "type": "Office"
+                }
+            ], 
+            "create_date": "2023-09-05T23:15:39Z", 
+            "days_on_market": null, 
+            "description": {
+                "__typename": "HomeDescription", 
+                "baths": 4, 
+                "baths_consolidated": "4", 
+                "baths_max": null, 
+                "baths_min": null, 
+                "beds": 8, 
+                "beds_max": null, 
+                "beds_min": null, 
+                "cooling": null, 
+                "garage": 4, 
+                "garage_max": null, 
+                "garage_min": null, 
+                "heating": null, 
+                "lot_sqft": 7166,
+                "name": null, 
+                "pool": null, 
+                "sqft": 5328, 
+                "sqft_max": null, 
+                "sqft_min": null, 
+                "stories": 2, 
+                "styles": null, 
+                "sub_type": null, 
+                "text": "Well maintained two 4 unit buildings located in highly desirable Hancock Park and Koreatown. These two parcels, strategically positioned on a corner lot, offer an outstanding investment opportunity and are to be sold in conjunction with 4754 Elmwood (5522-031-022) Each unit is equipped with its own laundry hook-up, adding to their desirability.", 
+                "type": "multi_family", 
+                "units": 4, 
+                "year_built": 1919
+            }, 
+            "details": [
+                {
+                    "__typename": "HomeDetails", 
+                    "category": "Bedrooms", 
+                    "text": ["Bedrooms: 8"]
+                }, 
+                {
+                    "__typename": "HomeDetails", 
+                    "category": "Bathrooms", 
+                    "text": ["Total Bathrooms: 4.00", "Full Bathrooms: 4"]
+                }, 
+                {
+                    "__typename": "HomeDetails", 
+                    "category": "Land Info", 
+                    "text": ["Lot Size Acres: 0.1645", "Lot Size Source: Vendor Enhanced", "Lot Size Square Feet: 7166"]
+                }, 
+                {
+                    "__typename": "HomeDetails", 
+                    "category": "Garage and Parking", 
+                    "text": ["Garage Spaces: 4", "Garage Description: Garage - 4+ Car", "Parking Total: 4"]
+                }, 
+                {
+                    "__typename": "HomeDetails", 
+                    "category": "Multi-Unit Info", 
+                    "text": ["Number of Buildings: 1", "Number of Units: 4", "Bedrooms in Unit-1: 3", "Bedrooms in Unit-2: 3", "Bedrooms in Unit-3: 3", "Bedrooms in Unit-4: 3", "Total Bathrooms in Unit-1: 2.00", "Total Bathrooms in Unit-2: 2.00", "Total Bathrooms in Unit-3: 2.00", "Total Bathrooms in Unit-4: 2.00", "Unit-1 Furnished Description: No", "Unit-2 Furnished Description: No", "Unit-3 Furnished Description: No", "Unit-4 Furnished Description: No", "Unit 2 Total Actual Rent: 3100.00", "Unit 3 Total Actual Rent: 2250.00", "Unit 4 Total Actual Rent: 2387.00"]
+                }, 
+                {
+                    "__typename": "HomeDetails", 
+                    "category": "Rental Info", 
+                    "text": ["Gross Income: 11237"]
+                }, 
+                {
+                    "__typename": "HomeDetails", 
+                    "category": "Other Property Info", 
+                    "text": ["Source Listing Status: Active", "County: Los Angeles", "Directions: Corner of Elmwood Ave/ St. Andrews", "Source Property Type: Residential Income", "Area: Hancock Park-Wilshire", "Source Neighborhood: Hancock Park-Wilshire", "Postal Code Plus 4: 2896", "Zoning: LAR3", "Source System Name: C2C"]
+                }, 
+                {
+                    "__typename": "HomeDetails", 
+                    "category": "Building and Construction", 
+                    "text": ["Total Square Feet Living: 5328", "Year Built: 1919", "Levels: Two", "Living Area Source: Vendor Enhanced", "Property Age: 104", "Levels or Stories: 2", "Structure Type: 4"]
+                }
+            ], 
+            "estimates": {
+                "__typename": "HomeEstimates", 
+                "current_values": [
+                    {
+                        "__typename": "LatestEstimate", 
+                        "date": "2023-08-26", 
+                        "estimate": 2237400, 
+                        "estimate_high": 2721600, 
+                        "estimate_low": 1753300, 
+                        "source": [Object]
+                    }, 
+                    {
+                        "__typename": "LatestEstimate", 
+                        "date": "2023-08-30", 
+                        "estimate": 1584337, 
+                        "estimate_high": 2059638, 
+                        "estimate_low": 1109035, 
+                        "source": [Object]
+                    }, 
+                    {
+                        "__typename": "LatestEstimate", 
+                        "date": "2023-08-14", 
+                        "estimate": 3045000, 
+                        "estimate_high": 4019400, 
+                        "estimate_low": 2070600, 
+                        "source": [Object]
+                    }
+                ], 
+                "forecast_values": [
+                    {
+                        "__typename": "ForecastEstimate", 
+                        "estimates": [Array], 
+                        "source": [Object]
+                    }, 
+                    {
+                        "__typename": "ForecastEstimate", 
+                        "estimates": [Array], 
+                        "source": [Object]
+                    }, 
+                    {
+                        "__typename": "ForecastEstimate", 
+                        "estimates": [Array], 
+                        "source": [Object]
+                    }
+                ], 
+                "historical_values": [
+                    {
+                        "__typename": "HistoricalEstimate",
+                        "estimates": [Array],
+                        "source": [Object]
+                    }, 
+                    {
+                        "__typename": "HistoricalEstimate", 
+                        "estimates": [Array], 
+                        "source": [Object]
+                    }, 
+                    {
+                        "__typename": "HistoricalEstimate", 
+                        "estimates": [Array], 
+                        "source": [Object]
+                    }
+                ]
+            }, 
+            "flags": {
+                "__typename": "HomeFlags", 
+                "is_coming_soon": null, 
+                "is_contingent": null, 
+                "is_deal_available": null, 
+                "is_for_rent": null, 
+                "is_foreclosure": null, 
+                "is_garage_present": true, 
+                "is_new_construction": null, 
+                "is_new_listing": true, 
+                "is_pending": null, 
+                "is_plan": null, 
+                "is_price_excludes_land": null, 
+                "is_price_reduced": null, 
+                "is_promotion_present": null, 
+                "is_senior_community": null, 
+                "is_short_sale": null, 
+                "is_subdivision": null
+            }, 
+            "hoa": null, 
+            "href": "https://www.realtor.com/realestateandhomes-detail/4762-Elmwood-Ave_Los-Angeles_CA_90004_M21926-75096", 
+            "last_price_change_amount": null, 
+            "last_price_change_date": null, 
+            "last_sold_date": "2002-10-31", 
+            "last_sold_price": 533000, 
+            "last_update_date": "2023-09-05T16:40:02Z", 
+            "lead_attributes": {
+                "__typename": "LeadAttributes", 
+                "disclaimer_text": null, 
+                "is_tcpa_message_enabled": null, 
+                "lead_type": "co_broke", 
+                "opcity_lead_attributes": {
+                    "__typename": "OpCityLeadAttributes", 
+                    "cashback_enabled": false, 
+                    "flip_the_market_enabled": true, 
+                    "local_phone": "(323)366-4648", 
+                    "phones": [[Object], [Object]]
+                }, 
+                "ready_connect_mortgage": {
+                    "__typename": "ReadyConnectMortgage", 
+                    "show_contact_a_lender": false, 
+                    "show_veterans_united": false
+                }, 
+                "show_contact_an_agent": true, 
+                "show_lead_form": true, 
+                "show_text_leads": true
+            }, 
+            "list_date": "2023-09-05T23:15:39Z", 
+            "list_price": 2150000, 
+            "list_price_max": null, 
+            "list_price_min": null, 
+            "listing_id": "2959391909", 
+            "local": {
+                "__typename": "Local", 
+                "flood": {
+                    "__typename": "Flood", 
+                    "fema_zone": ["X (unshaded)"], 
+                    "flood_factor_score": 4
+                }, 
+                "noise": {
+                    "__typename": "Noise", 
+                    "noise_categories": [[Object], [Object], [Object], [Object]], 
+                    "score": 69
+                }
+            }, 
+            "location": {
+                "__typename": "HomeLocation", 
+                "address": {
+                    "__typename": "HomeAddress", 
+                    "city": "Los Angeles", 
+                    "coordinate": {
+                        "__typename": "HomeCoordinate", 
+                        "lat": 34.077976, 
+                        "lon": -118.311186
+                    }, 
+                    "line": "4762 Elmwood Ave", 
+                    "postal_code": "90004", 
+                    "state": "California", 
+                    "state_code": "CA", 
+                    "street_name": "Elmwood", 
+                    "street_number": "4762", 
+                    "street_suffix": "Ave", 
+                    "unit": null
+                }, 
+                "county": {
+                    "__typename": "HomeCounty", 
+                    "fips_code": "06037"
+                }, 
+                "neighborhoods": [
+                    {
+                        "__typename": "Neighborhood", 
+                        "city": "Los Angeles", 
+                        "geo_statistics": [Object], 
+                        "level": "sub_neighborhood", 
+                        "name": "Larchmont"
+                    }, 
+                    {
+                        "__typename": "Neighborhood", 
+                        "city": "Los Angeles", 
+                        "geo_statistics": [Object], 
+                        "level": "neighborhood", 
+                        "name": "Greater Wilshire"
+                    }, 
+                    {
+                        "__typename": "Neighborhood", 
+                        "city": "Los Angeles", 
+                        "geo_statistics": [Object], 
+                        "level": "macro_neighborhood", 
+                        "name": "Central LA"
+                    }
+                ], 
+                "street_view_url": ""
+            }, 
+            "matterport": null, 
+            "monthly_fees": null, 
+            "mortgage": {
+                "__typename": "Mortgage", "average_rates": [{"__typename": "Rate", "loan_type": [Object], "rate": 0.07607}, {"__typename": "Rate", "loan_type": [Object], "rate": 0.07435}, {"__typename": "Rate", "loan_type": [Object], "rate": 0.06828}, {"__typename": "Rate", "loan_type": [Object], "rate": 0.06786}, {"__typename": "Rate", "loan_type": [Object], "rate": 0.07227}, {"__typename": "Rate", "loan_type": [Object], "rate": 0.07224}, {"__typename": "Rate", "loan_type": [Object], "rate": 0.06993}, {"__typename": "Rate", "loan_type": [Object], "rate": 0.07153}], "estimate": {"__typename": "MortgageEstimate", "average_rate": {"__typename": "Rate", "loan_type": [Object], "rate": 0.07607}, "down_payment": 430000, "loan_amount": 1720000, "monthly_payment": 14930, "monthly_payment_details": [[Object], [Object], [Object], [Object], [Object]], "total_payment": 4374994}, "insurance_rate": 0.003, "property_tax_rate": 0.0125, "rates_url": "https://www.realtor.com/mortgage/rates/?from=mobile#zip=90004&property_price=2150000&mlid=2192675096"
+            }, 
+            "nearby_schools": {
+                "__typename": "SchoolList", "schools": [{"__typename": "School", "assigned": true, "coordinate": [Object], "distance_in_miles": 0.3, "district": [Object], "education_levels": [Array], "funding_type": "public", "grades": [Array], "id": "078606351", "name": "Van Ness Avenue Elementary School", "parent_rating": 4, "rating": 7, "student_count": 198}, {"__typename": "School", "assigned": true, "coordinate": [Object], "distance_in_miles": 1.2, "district": [Object], "education_levels": [Array], "funding_type": "public", "grades": [Array], "id": "078602661", "name": "Joseph Le Conte Middle School", "parent_rating": 5, "rating": 4, "student_count": 763}, {"__typename": "School", "assigned": true, "coordinate": [Object], "distance_in_miles": 2.8, "district": [Object], "education_levels": [Array], "funding_type": "public", "grades": [Array], "id": "078600951", "name": "Fairfax Senior High School", "parent_rating": 4, "rating": 4, "student_count": 1827}, {"__typename": "School", "assigned": null, "coordinate": [Object], "distance_in_miles": 0.3, "district": [Object], "education_levels": [Array], "funding_type": "private", "grades": [Array], "id": "078760001", "name": "Beverly Christian Academy, Inc.", "parent_rating": null, "rating": null, "student_count": 32}, {"__typename": "School", "assigned": null, "coordinate": [Object], "distance_in_miles": 0.4, "district": [Object], "education_levels": [Array], "funding_type": "public", "grades": [Array], "id": "078777611", "name": "Harvard Elementary School", "parent_rating": 3, "rating": 3, "student_count": 387}, {"__typename": "School", "assigned": null, "coordinate": [Object], "distance_in_miles": 0.5, "district": [Object], "education_levels": [Array], "funding_type": "private", "grades": [Array], "id": "079008811", "name": "Enopi Academy", "parent_rating": null, "rating": null, "student_count": 87}, {"__typename": "School", "assigned": null, "coordinate": [Object], "distance_in_miles": 0.6, "district": [Object], "education_levels": [Array], "funding_type": "public", "grades": [Array], "id": "078814721", "name": "Charles H. Kim Elementary School", "parent_rating": 4, "rating": 7, "student_count": 645}, {"__typename": "School", "assigned": null, "coordinate": [Object], "distance_in_miles": 0.6, "district": [Object], "education_levels": [Array], "funding_type": "private", "grades": [Array], "id": "078723641", "name": "St. Brendan", "parent_rating": 5, "rating": null, "student_count": 303}, {"__typename": "School", "assigned": null, "coordinate": [Object], "distance_in_miles": 1.2, "district": [Object], "education_levels": [Array], "funding_type": "public", "grades": [Array], "id": "078606621", "name": "Virgil Middle School", "parent_rating": 3, "rating": 4, "student_count": 1151}, {"__typename": "School", "assigned": null, "coordinate": [Object], "distance_in_miles": 1.2, "district": [Object], "education_levels": [Array], "funding_type": "public", "grades": [Array], "id": "078775911", "name": "Richard A. Alonzo Community Day School", "parent_rating": 5, "rating": null, "student_count": 94}, {"__typename": "School", "assigned": null, "coordinate": [Object], "distance_in_miles": 1.2, "district": [Object], "education_levels": [Array], "funding_type": "public", "grades": [Array], "id": "078924351", "name": "Apex Academy", "parent_rating": 4, "rating": 2, "student_count": 370}]
+            }, 
+            "one_time_fees": null, 
+            "open_houses": null, 
+            "pet_policy": null, 
+            "photo_count": 31, 
+            "photos": [
+                {
+                    "__typename": "HomePhoto", 
+                    "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m1689403416s.jpg", 
+                    "tags": [[Object], [Object], [Object], [Object]], 
+                    "type": "realtordotcom_mls_listing_image"
+                }, 
+                {
+                    "__typename": "HomePhoto", 
+                    "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m1067774409s.jpg", 
+                    "tags": [[Object], [Object], [Object], [Object], [Object]], 
+                    "type": "realtordotcom_mls_listing_image"
+                }, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m4278688311s.jpg", "tags": [[Object], [Object], [Object], [Object], [Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m1408132697s.jpg", "tags": [[Object], [Object], [Object], [Object], [Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m881201702s.jpg", "tags": [[Object], [Object], [Object], [Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m2142700451s.jpg", "tags": [[Object], [Object], [Object], [Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m2116541079s.jpg", "tags": [[Object], [Object], [Object], [Object], [Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m2206135769s.jpg", "tags": [[Object], [Object], [Object], [Object], [Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m2518463261s.jpg", "tags": [[Object], [Object], [Object], [Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m4250995064s.jpg", "tags": [[Object], [Object], [Object], [Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m945366541s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m2340859208s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m753284824s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m1402569786s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m649960977s.jpg", "tags": [[Object], [Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m2025134949s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m1477383580s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m2966807944s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m515573680s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m3110902432s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m1749462534s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m4218361109s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m2314070777s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m2718537334s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m3237620499s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m1267589207s.jpg", "tags": [[Object], [Object], [Object], [Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m1127044060s.jpg", "tags": [[Object], [Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m1921385554s.jpg", "tags": [[Object], [Object], [Object], [Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m1756567936s.jpg", "tags": [[Object], [Object], [Object], [Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m3981224015s.jpg", "tags": [[Object], [Object], [Object], [Object], [Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m263126077s.jpg", "tags": [[Object], [Object]], "type": "realtordotcom_mls_listing_image"}
+            ], 
+            "price_per_sqft": 404, 
+            "products": {
+                "__typename": "ProductSummary", "products": ["co_broke"]
+            }, 
+            "property_history": [
+                {
+                    "__typename": "HomePropertyHistory", 
+                    "date": "2023-09-05", 
+                    "event_name": "Listed", 
+                    "listing": {
+                        "__typename": "HomeListing", 
+                        "description": [Object], 
+                        "photos": [Array]
+                    }, 
+                    "price": 2150000, 
+                    "source_name": "TheMLSCLAW"
+                }, 
+                {"__typename": "HomePropertyHistory", "date": "2021-03-12", "event_name": "Listing removed", "listing": {"__typename": "HomeListing", "description": [Object], "photos": [Array]}, "price": 0, "source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "2021-03-06", "event_name": "Price Changed", "listing": {"__typename": "HomeListing", "description": [Object], "photos": [Array]}, "price": 1998000, "source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "2021-02-17", "event_name": "Listed", "listing": {"__typename": "HomeListing", "description": [Object], "photos": [Array]}, "price": 1999900, "source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "2019-02-03", "event_name": "Listing removed", "listing": {"__typename": "HomeListing", "description": [Object], "photos": [Array]}, "price": 0, "source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "2019-02-01", "event_name": "Listing removed", "listing": {"__typename": "HomeListing", "description": [Object], "photos": [Array]}, "price": 1899000, "source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "2019-01-10", "event_name": "Listing removed", "listing": {"__typename": "HomeListing", "description": [Object], "photos": [Array]}, "price": 0, "source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "2019-01-09", "event_name": "Price Changed", "listing": {"__typename": "HomeListing", "description": [Object], "photos": [Array]}, "price": 1899000, "source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "2019-01-09", "event_name": "Listing removed", "listing": {"__typename": "HomeListing", "description": [Object], "photos": [Array]}, "price": 3880000, "source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "2019-01-08", "event_name": "Listed", "listing": {"__typename": "HomeListing", "description": [Object], "photos": [Array]}, "price": 1899999, "source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "2018-12-24", "event_name": "Price Changed", "listing": {"__typename": "HomeListing", "description": [Object], "photos": [Array]}, "price": 3880000, "source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "2018-12-05", "event_name": "Price Changed", "listing": {"__typename": "HomeListing", "description": [Object], "photos": [Array]}, "price": 3780000, "source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "2018-10-19", "event_name": "Price Changed", "listing": {"__typename": "HomeListing", "description": [Object], "photos": [Array]}, "price": 3888000, "source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "2018-10-01", "event_name": "Listed", "listing": {"__typename": "HomeListing", "description": [Object], "photos": [Array]}, "price": 1925000, "source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "2018-06-25", "event_name": "Listing removed", "listing": {"__typename": "HomeListing", "description": [Object], "photos": [Array]}, "price": 1925000, "source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "2018-04-30", "event_name": "Listed", "listing": {"__typename": "HomeListing", "description": [Object], "photos": [Array]}, "price": 1925000, "source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "2018-04-25", "event_name": "Listing removed", "listing": {"__typename": "HomeListing", "description": [Object], "photos": [Array]}, "price": 1869000, "source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "2018-03-28", "event_name": "Price Changed", "listing": {"__typename": "HomeListing", "description": [Object], "photos": [Array]}, "price": 1869000, "source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "2018-02-16", "event_name": "Listed", "listing": {"__typename": "HomeListing", "description": [Object], "photos": [Array]}, "price": 1950000, "source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "2014-11-12", "event_name": "Listing removed", "listing": {"__typename": "HomeListing", "description": [Object], "photos": [Array]}, "price": 1500000, "source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "2014-05-02", "event_name": "Relisted", "listing": {"__typename": "HomeListing", "description": [Object], "photos": [Array]}, "price": 1500000, "source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "2014-01-01", "event_name": "Listing removed", "listing": {"__typename": "HomeListing", "description": [Object], "photos": [Array]}, "price": 1500000, "source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "2013-04-12", "event_name": "Listed", "listing": {"__typename": "HomeListing", "description": [Object], "photos": [Array]}, "price": 1500000, "source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "2006-03-16", "event_name": "Listing removed", "listing": {"__typename": "HomeListing", "description": [Object], "photos": null}, "price": 1490000, "source_name": "ITECH"}, {"__typename": "HomePropertyHistory", "date": "2005-09-15", "event_name": "Listed", "listing": {"__typename": "HomeListing", "description": [Object], "photos": null}, "price": 1490000, "source_name": "ITECH"}, {"__typename": "HomePropertyHistory", "date": "2004-07-13", "event_name": "Listing removed", "listing": {"__typename": "HomeListing", "description": [Object], "photos": null}, "price": 899000, "source_name": "ITECH"}, {"__typename": "HomePropertyHistory", "date": "2003-11-17", "event_name": "Listed", "listing": {"__typename": "HomeListing", "description": [Object], "photos": null}, "price": 899000, "source_name": "ITECH"}, {"__typename": "HomePropertyHistory", "date": "2003-07-31", "event_name": "Listing removed", "listing": {"__typename": "HomeListing", "description": [Object], "photos": null}, "price": 695000, "source_name": "ITECH"}, {"__typename": "HomePropertyHistory", "date": "2003-03-27", "event_name": "Listed", "listing": {"__typename": "HomeListing", "description": [Object], "photos": null}, "price": 695000, "source_name": "ITECH"}, {"__typename": "HomePropertyHistory", "date": "2002-11-01", "event_name": "Sold", "listing": {"__typename": "HomeListing", "description": [Object], "photos": null}, "price": 533000, "source_name": "ITECH"}, {"__typename": "HomePropertyHistory", "date": "2002-08-21", "event_name": "Listed", "listing": {"__typename": "HomeListing", "description": [Object], "photos": null}, "price": 529000, "source_name": "ITECH"}, {"__typename": "HomePropertyHistory", "date": "1977-08-16", "event_name": "Sold", "listing": null, "price": 87500, "source_name": "Public Record"}
+            ], 
+            "property_id": "2192675096", 
+            "provider_url": null, 
+            "schools": {
+                "__typename": "SchoolList", "schools": [{"__typename": "School", "assigned": true, "coordinate": [Object], "distance_in_miles": 0.3, "district": [Object], "education_levels": [Array], "funding_type": "public", "grades": [Array], "id": "078606351", "name": "Van Ness Avenue Elementary School", "parent_rating": 4, "rating": 7, "student_count": 198}, {"__typename": "School", "assigned": true, "coordinate": [Object], "distance_in_miles": 1.2, "district": [Object], "education_levels": [Array], "funding_type": "public", "grades": [Array], "id": "078602661", "name": "Joseph Le Conte Middle School", "parent_rating": 5, "rating": 4, "student_count": 763}, {"__typename": "School", "assigned": true, "coordinate": [Object], "distance_in_miles": 2.8, "district": [Object], "education_levels": [Array], "funding_type": "public", "grades": [Array], "id": "078600951", "name": "Fairfax Senior High School", "parent_rating": 4, "rating": 4, "student_count": 1827}, {"__typename": "School", "assigned": null, "coordinate": [Object], "distance_in_miles": 0.3, "district": [Object], "education_levels": [Array], "funding_type": "private", "grades": [Array], "id": "078760001", "name": "Beverly Christian Academy, Inc.", "parent_rating": null, "rating": null, "student_count": 32}]
+            }, 
+            "source": {
+                "__typename": "MlsSource", "community_id": null, "disclaimer": {"__typename": "MlsDisclaimer", "href": null, "text": "©1995-2023 The MLS™ All rights reserved."}, "id": "WECA", "listing_id": "23-307949", "name": "TheMLSCLAW", "plan_id": null, "raw": {"__typename": "MlsRawData", "style": null, "tax_amount": null}, "spec_id": null, "type": "mls"
+            }, 
+            "status": "for_sale", 
+            "tax_history": [
+                {"__typename": "TaxHistory", "assessment": {"__typename": "Assessment", "building": 105117, "land": 1787003, "total": 1892120}, "tax": 22958, "year": 2021}, {"__typename": "TaxHistory", "assessment": {"__typename": "Assessment", "building": 104040, "land": 1768680, "total": 1872720}, "tax": 23191, "year": 2020}, {"__typename": "TaxHistory", "assessment": {"__typename": "Assessment", "building": 102000, "land": 1734000, "total": 1836000}, "tax": 22276, "year": 2019}, {"__typename": "TaxHistory", "assessment": {"__typename": "Assessment", "building": 336888, "land": 857541, "total": 1194429}, "tax": 14842, "year": 2018}, {"__typename": "TaxHistory", "assessment": {"__typename": "Assessment", "building": 330283, "land": 840727, "total": 1171010}, "tax": 14526, "year": 2017}, {"__typename": "TaxHistory", "assessment": {"__typename": "Assessment", "building": 323807, "land": 824243, "total": 1148050}, "tax": 14159, "year": 2016}, {"__typename": "TaxHistory", "assessment": {"__typename": "Assessment", "building": 318944, "land": 811863, "total": 1130807}, "tax": 13955, "year": 2015}, {"__typename": "TaxHistory", "assessment": {"__typename": "Assessment", "building": 312697, "land": 795960, "total": 1108657}, "tax": 14020, "year": 2014}, {"__typename": "TaxHistory", "assessment": {"__typename": "Assessment", "building": 311284, "land": 792363, "total": 1103647}, "tax": 14014, "year": 2013}, {"__typename": "TaxHistory", "assessment": {"__typename": "Assessment", "building": 305181, "land": 776827, "total": 1082008}, "tax": 14203, "year": 2012}, {"__typename": "TaxHistory", "assessment": {"__typename": "Assessment", "building": 299198, "land": 761596, "total": 1060794}, "tax": 13914, "year": 2010}, {"__typename": "TaxHistory", "assessment": {"__typename": "Assessment", "building": 297668, "land": 757701, "total": 1055369}, "tax": 13403, "year": 2009}, {"__typename": "TaxHistory", "assessment": {"__typename": "Assessment", "building": 296962, "land": 755905, "total": 1052867}, "tax": 13403, "year": 2009}, {"__typename": "TaxHistory", "assessment": {"__typename": "Assessment", "building": 291832, "land": 742845, "total": 1034677}, "tax": 12834, "year": 2008}, {"__typename": "TaxHistory", "assessment": {"__typename": "Assessment", "building": 286110, "land": 728280, "total": 1014390}, "tax": 12403, "year": 2007}
+            ], 
+            "terms": null, 
+            "units": null, 
+            "videos": null, 
+            "virtual_tours": null
+        }
+    }
+}
+
+{{"__typename": "Home", "advertisers": [{"__typename": "HomeAdvertiser", "broker": null, "email": "kaypark777@yahoo.com", "fulfillment_id": "0", "href": null, "name": "Kay Kyung Park", "office": [Object], "phones": [Array], "photo": null, "state_license": "01268123", "team_name": null, "type": "seller"}], "assigned_schools": {"__typename": "SchoolList", "schools": [[Object], [Object], [Object]]}, "branding": [{"__typename": "Branding", "accent_color": null, "link": null, "name": "Kay Kyung Park", "phone": null, "photo": null, "slogan": null, "type": "Agent"}, {"__typename": "Branding", "accent_color": null, "link": null, "name": "Dream Realty Asset Mgt, Inc.", "phone": null, "photo": null, "slogan": null, "type": "Office"}], "buyers": null, "community": null, "consumer_advertisers": [{"__typename": "ConsumerAdvertiser", "advertiser_id": "3231753", "agent_id": null, "hours": null, "href": null, "name": 
+"Kay Kyung Park", "office_id": "3231753", "phone": null, "photo": [Object], "show_realtor_logo": false, "slogan": null, "type": "Agent"}, {"__typename": "ConsumerAdvertiser", "advertiser_id": "3231753", "agent_id": null, "hours": null, "href": null, "name": "Dream Realty Asset Mgt, Inc.", "office_id": "3231753", "phone": "(213) 380-8949", "photo": [Object], "show_realtor_logo": false, "slogan": null, "type": "Office"}], "create_date": "2023-09-07T20:09:42Z", "days_on_market": null, "description": {"__typename": "HomeDescription", "baths": 5, "baths_consolidated": "5", "baths_max": null, "baths_min": null, "beds": 5, "beds_max": null, "beds_min": null, "cooling": null, "garage": 2, "garage_max": null, "garage_min": null, "heating": null, "lot_sqft": 11556, "name": null, "pool": null, "sqft": 4926, "sqft_max": null, "sqft_min": null, "stories": 2, "styles": ["spanish_eclectic"], "sub_type": null, "text": "Elegance and luxury in Hancock Park residence provides abundant space for both relaxation and entertainment. Marble flooring and a sweeping staircase set the tone for the refined aesthetic found throughout. Formal living room, elegant dining area, a stylish chef's kitchen, custom cabinetry, and a spacious island. The master suite is a private retreat, featuring a generous bedroom space with his and her walk-in closet. cozy fireplace, and en-suite bathroom. Each of the additional bedrooms offers its own ample closet space and en-suite bathrooms, The 
+outdoor oasis is an entertainer's dream, landscaped backyard with lush greenery, hosting gatherings with a built-in BBQ area, enjoying the California sunshine. There is a spacious backyard where you can build a swimming pool according to your desires. Guest house with own kitchen and bathroom. Situated in prestigious Hancock Park, this home is nestled within a desirable neighborhood renowned for its tree-lined streets, and strong sense of community.", "type": "single_family", "units": null, "year_built": 1927}, "details": [{"__typename": "HomeDetails", "category": "Bedrooms", "text": [Array]}, {"__typename": "HomeDetails", "category": "Bathrooms", "text": [Array]}, {"__typename": "HomeDetails", "category": "Other Rooms", "text": [Array]}, {"__typename": "HomeDetails", "category": "Appliances", "text": [Array]}, {"__typename": "HomeDetails", "category": "Heating and Cooling", "text": [Array]}, {"__typename": "HomeDetails", "category": "Interior Features", "text": [Array]}, {"__typename": "HomeDetails", "category": "Kitchen and Dining", "text": [Array]}, {"__typename": "HomeDetails", "category": "Exterior and Lot Features", "text": [Array]}, {"__typename": "HomeDetails", "category": "Land Info", "text": [Array]}, {"__typename": "HomeDetails", "category": "Garage and Parking", "text": [Array]}, {"__typename": "HomeDetails", "category": "Home Features", "text": 
+[Array]}, {"__typename": "HomeDetails", "category": "Homeowners Association", "text": [Array]}, {"__typename": "HomeDetails", "category": "Other Property Info", "text": [Array]}, {"__typename": "HomeDetails", "category": "Building and Construction", "text": [Array]}], "estimates": {"__typename": "HomeEstimates", "current_values": [[Object], [Object], [Object]], "forecast_values": [[Object], [Object], [Object]], "historical_values": [[Object], [Object], [Object]]}, "flags": {"__typename": "HomeFlags", "is_coming_soon": null, "is_contingent": null, "is_deal_available": null, "is_for_rent": null, "is_foreclosure": null, "is_garage_present": true, "is_new_construction": null, "is_new_listing": true, "is_pending": null, "is_plan": 
+null, "is_price_excludes_land": null, "is_price_reduced": null, "is_promotion_present": null, "is_senior_community": null, "is_short_sale": null, "is_subdivision": null}, "hoa": {"__typename": "HomeHOA", "fee": 0, "historic_fee": null}, "href": "https://www.realtor.com/realestateandhomes-detail/315-N-McCadden-Pl_Los-Angeles_CA_90004_M22693-31140", "last_price_change_amount": null, "last_price_change_date": null, "last_sold_date": "2018-05-24", "last_sold_price": 3450000, "last_update_date": "2023-09-07T13:05:51Z", "lead_attributes": {"__typename": "LeadAttributes", "disclaimer_text": null, "is_tcpa_message_enabled": null, "lead_type": "co_broke", "opcity_lead_attributes": {"__typename": "OpCityLeadAttributes", "cashback_enabled": false, "flip_the_market_enabled": true, "local_phone": "(323)366-4648", "phones": [Array]}, "ready_connect_mortgage": {"__typename": "ReadyConnectMortgage", "show_contact_a_lender": false, "show_veterans_united": false}, "show_contact_an_agent": true, "show_lead_form": true, "show_text_leads": true}, "list_date": "2023-09-07T20:09:42Z", "list_price": 5700000, "list_price_max": null, "list_price_min": null, "listing_id": "2959462324", "local": {"__typename": "Local", "flood": {"__typename": "Flood", "fema_zone": [Array], "flood_factor_score": 
+1}, "noise": {"__typename": "Noise", "noise_categories": [Array], "score": 68}}, "location": {"__typename": "HomeLocation", "address": {"__typename": "HomeAddress", "city": "Los Angeles", "coordinate": [Object], "line": "315 N McCadden Pl", "postal_code": "90004", "state": "California", "state_code": "CA", "street_name": "McCadden", "street_number": "315", "street_suffix": "Pl", "unit": null}, "county": {"__typename": "HomeCounty", "fips_code": "06037"}, "neighborhoods": [[Object], [Object], [Object]], "street_view_url": ""}, "matterport": {"__typename": "Matterport", "videos": [[Object]]}, "monthly_fees": null, "mortgage": {"__typename": "Mortgage", "average_rates": [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]], "estimate": {"__typename": "MortgageEstimate", "average_rate": [Object], "down_payment": 1140000, "loan_amount": 4560000, "monthly_payment": 39528, "monthly_payment_details": [Array], "total_payment": 11579642}, "insurance_rate": 0.003, "property_tax_rate": 0.0125, "rates_url": "https://www.realtor.com/mortgage/rates/?from=mobile#zip=90004&property_price=5700000&mlid=2269331140"}, "nearby_schools": {"__typename": "SchoolList", "schools": [[Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object], [Object]]}, "one_time_fees": null, "open_houses": [{"__typename": "HomeOpenHouse", "description": "luxury in Hancock Park residence. Marble flooring and a sweeping staircase set the tone for the refined aesthetic found throughout. Formal living room, elegant dining area, a stylish chef's kitchen, custom cabinetry, and a spacious island. The master suite is a private retreat, featuring a generous bedroom space with his and her walk-in closet. cozy fireplace, and en-suite bathroom. Each of the additional bedrooms offers its own ample closet space and en-suite bathrooms, The outdoor oasis.", "dst": true, "end_date": 
+"2023-09-10T23:00:00Z", "href": null, "methods": [Array], "start_date": "2023-09-10T21:00:00Z", "time_zone": "PST"}], "pet_policy": null, "photo_count": 29, "photos": [{"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m3893923447s.jpg", "tags": [Array], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m4287418482s.jpg", "tags": [Array], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m3951093178s.jpg", "tags": [Array], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m2005096111s.jpg", "tags": [Array], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m4060605648s.jpg", "tags": [Array], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m2473621403s.jpg", "tags": [Array], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m4287418482s.jpg", "tags": [Array], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m724301907s.jpg", "tags": [Array], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m459089570s.jpg", "tags": [Array], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m3721385390s.jpg", "tags": [Array], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": 
+"https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m829811479s.jpg", "tags": [Array], 
+"type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m3108908959s.jpg", "tags": [Array], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m1883128173s.jpg", "tags": [Array], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m2828897685s.jpg", "tags": [Array], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m2601699050s.jpg", "tags": [Array], "type": "realtordotcom_mls_listing_image"}, 
+{"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m187015423s.jpg", "tags": [Array], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m1071441781s.jpg", "tags": [Array], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m2793450069s.jpg", "tags": [Array], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m2784282794s.jpg", "tags": [Array], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m3572528134s.jpg", "tags": [Array], "type": 
+"realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m2052962864s.jpg", "tags": [Array], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m2150976377s.jpg", "tags": [Array], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m1568523987s.jpg", "tags": [Array], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m1590312222s.jpg", "tags": [Array], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m298262200s.jpg", "tags": [Array], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m2611359589s.jpg", 
+"tags": [Array], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m474883997s.jpg", "tags": [Array], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m2692179177s.jpg", "tags": [Array], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m3708566244s.jpg", "tags": [Array], "type": "realtordotcom_mls_listing_image"}], "price_per_sqft": 1157, "products": {"__typename": "ProductSummary", "products": ["co_broke"]}, "property_history": [{"__typename": "HomePropertyHistory", "date": "2023-09-07", "event_name": "Listed for rent", "listing": [Object], "price": 16500, "source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "2023-09-07", "event_name": "Listed", "listing": [Object], "price": 5700000, "source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "2023-08-15", "event_name": "Listing removed", "listing": [Object], "price": 0, "source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "2023-05-16", "event_name": "Listed", "listing": [Object], "price": 5900000, "source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "2018-05-23", "event_name": "Sold", "listing": [Object], "price": 34500000, "source_name": "CRMLS"}, {"__typename": "HomePropertyHistory", "date": "2018-05-21", "event_name": "Price Changed", "listing": [Object], "price": 3699000, "source_name": "CRMLS"}, {"__typename": "HomePropertyHistory", "date": "2017-10-21", "event_name": "Listed", "listing": [Object], "price": 4295000, "source_name": "CRMLS"}, {"__typename": "HomePropertyHistory", "date": "2015-01-06", "event_name": "Sold", "listing": [Object], "price": 3388888, "source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "2014-12-04", "event_name": "Listing removed", "listing": 
+[Object], "price": 3495000, "source_name": "CRMLS"}, {"__typename": "HomePropertyHistory", "date": "2014-10-29", "event_name": "Price Changed", "listing": [Object], "price": 3495000, "source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "2014-10-17", "event_name": "Price Changed", "listing": [Object], "price": 3595000, "source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "2014-09-02", "event_name": "Listed", "listing": [Object], "price": 3495000, "source_name": "CRMLS"}, {"__typename": "HomePropertyHistory", "date": "2014-09-02", "event_name": "Listed", "listing": [Object], "price": 3795000, 
+"source_name": "TheMLSCLAW"}, {"__typename": "HomePropertyHistory", "date": "1969-03-17", "event_name": "Sold", "listing": null, "price": 83500, "source_name": "Public Record"}], "property_id": "2269331140", "provider_url": null, "schools": {"__typename": "SchoolList", "schools": [[Object], [Object], [Object], [Object]]}, "source": {"__typename": "MlsSource", "community_id": null, "disclaimer": {"__typename": "MlsDisclaimer", "href": null, "text": "©1995-2023 The MLS™ All rights reserved."}, "id": "WECA", "listing_id": "23-308555", "name": "TheMLSCLAW", "plan_id": null, "raw": {"__typename": "MlsRawData", "style": "Mediterranean", "tax_amount": null}, "spec_id": null, "type": "mls"}, "status": "for_sale", "tax_history": [{"__typename": "TaxHistory", "assessment": [Object], "tax": 43323, "year": 2021}, {"__typename": 
+"TaxHistory", "assessment": [Object], "tax": 43775, "year": 2020}, {"__typename": "TaxHistory", "assessment": [Object], "tax": 42021, "year": 2019}, {"__typename": "TaxHistory", "assessment": [Object], "tax": 43408, "year": 2018}, {"__typename": "TaxHistory", "assessment": [Object], "tax": 42400, "year": 2017}, {"__typename": "TaxHistory", "assessment": [Object], "tax": 41481, "year": 2016}, {"__typename": "TaxHistory", "assessment": [Object], "tax": 4973, "year": 2015}, {"__typename": "TaxHistory", "assessment": [Object], "tax": 4998, "year": 2014}, {"__typename": "TaxHistory", "assessment": [Object], "tax": 4992, "year": 2013}, {"__typename": "TaxHistory", "assessment": [Object], "tax": 5056, "year": 2012}, {"__typename": "TaxHistory", "assessment": [Object], "tax": 4978, "year": 2010}, {"__typename": "TaxHistory", "assessment": [Object], "tax": 4798, "year": 2009}, {"__typename": "TaxHistory", "assessment": [Object], "tax": 4798, "year": 2009}, {"__typename": "TaxHistory", "assessment": [Object], "tax": 4607, "year": 2008}, {"__typename": "TaxHistory", "assessment": [Object], "tax": 4449, "year": 2007}], "terms": null, "units": null, "videos": null, "virtual_tours": null}}
+
+[{"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m3893923447s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m4287418482s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m3951093178s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m2005096111s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m4060605648s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m2473621403s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m4287418482s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m724301907s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m459089570s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m3721385390s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m829811479s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m3108908959s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, 
+{"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m1883128173s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m2828897685s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m2601699050s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m187015423s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m1071441781s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m2793450069s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m2784282794s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m3572528134s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m2052962864s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m2150976377s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m1568523987s.jpg", "tags": [[Object], [Object], [Object], [Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m1590312222s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m298262200s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m2611359589s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m474883997s.jpg", "tags": [[Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m2692179177s.jpg", "tags": [[Object], [Object], [Object], [Object]], "type": "realtordotcom_mls_listing_image"}, {"__typename": "HomePhoto", "href": "https://ap.rdcpix.com/4d1f47058bb20d619bf74fe196a257b2l-m3708566244s.jpg", "tags": [[Object], [Object], [Object]], "type": "realtordotcom_mls_listing_image"}]

@@ -1,0 +1,137 @@
+{
+    "console.log()": "response.data",
+    "data": {
+        "home_search": {
+            "__typename": "SearchHomeResult", 
+            "count": 94, 
+            "results": "Array of results displayed below", 
+            "total": 94
+        }
+    }
+}
+,
+{
+    "console.log()": "response.data.data.homeSearch.results[0]",
+    "__typename": "SearchHome", 
+    "advertisers": null, 
+    "branding": [{
+        "__typename": "Branding", 
+        "link": null, 
+        "name": null, 
+        "phone": null, 
+        "photo": null
+    }], 
+    "community": null, 
+    "description": {
+        "__typename": "SearchHomeDescription", 
+        "baths": 4, 
+        "baths_full": 4, 
+        "baths_full_calc": 4, 
+        "baths_half": null, 
+        "baths_max": null, 
+        "baths_min": null, 
+        "baths_partial_calc": null, 
+        "beds": 8, 
+        "beds_max": null, 
+        "beds_min": null,         
+        "lot_sqft": 7166, 
+        "sqft": 5328, 
+        "sqft_max": null, 
+        "sqft_min": null, 
+        "sub_type": null, 
+        "type": "multi_family"
+    }, 
+    "estimate": {
+        "__typename": "LatestEstimate", 
+        "estimate": 2237400
+    }, 
+    "flags": {
+        "__typename": "HomeFlags", 
+        "is_coming_soon": null, 
+        "is_contingent": null, 
+        "is_foreclosure": null,                 
+        "is_new_construction": null,                 
+        "is_new_listing": true, 
+        "is_pending": null, 
+        "is_plan": null, 
+        "is_price_reduced": null
+    }, 
+    "href": "https://www.realtor.com/realestateandhomes-detail/4762-Elmwood-Ave_Los-Angeles_CA_90004_M21926-75096", 
+    "last_sold_date": "2002-10-31", 
+    "last_sold_price": 533000, 
+    "lead_attributes": {
+        "__typename": "LeadAttributes", 
+        "lead_type": "co_broke", 
+        "opcity_lead_attributes": {
+            "__typename": "OpCityLeadAttributes", 
+            "flip_the_market_enabled": true
+        }, 
+        "show_contact_an_agent": true
+    }, 
+    "list_date": "2023-09-05T23:15:39Z", 
+    "list_price": 2150000, 
+    "list_price_max": null, 
+    "list_price_min": null, 
+    "listing_id": "2959391909", 
+    "location": {
+        "__typename": "SearchHomeLocation", 
+        "address": {
+            "__typename": "SearchHomeAddress", 
+            "city": "Los Angeles", 
+            "coordinate": {
+                "__typename": "Coordinate", 
+                "accuracy": null, 
+                "lat": 34.077976, 
+                "lon": -118.311186
+            }, 
+            "country": "USA", 
+            "line": "4762 Elmwood Ave", 
+            "postal_code": "90004", 
+            "state": "California", 
+            "state_code": "CA", 
+            "street_name": "Elmwood", 
+            "street_number": "4762", 
+            "street_suffix": "Ave"
+        }, 
+        "county": {
+            "__typename": "HomeCounty", 
+            "fips_code": "06037"
+        }, 
+        "street_view_url": ""
+    }, 
+    "matterport": false, 
+    "open_houses": null, 
+    "pet_policy": null, 
+    "photo_count": 31, 
+    "plan_id": null, 
+    "price_reduced_amount": null, 
+    "primary_photo": {
+        "__typename": "Photo",
+        "href": "https://ap.rdcpix.com/381430477a31591d53c18a83b9e68cbel-m1689403416s.jpg"
+    },                 
+    "products": {
+        "__typename": "ProductSummary", 
+        "brand_name": "basic_opt_in", 
+        "products": ["co_broke"]
+    },                 
+    "property_id": "2192675096", 
+    "source": {
+        "__typename": "MlsSource",
+        "agents": [{
+            "__typename": "MlsAgent", 
+            "agent_id": "C112754", 
+            "agent_name": "Woo Jang", 
+            "id": "WECA", 
+            "office_id": "X80609", 
+            "office_name": null
+        }],
+        "id": "WECA", 
+        "listing_href": null,
+        "listing_id": "23-307949", 
+        "plan_id": null, 
+        "spec_id": null, 
+        "type": "mls"
+    },                  
+    "status": "for_sale", 
+    "virtual_tours": null
+}
